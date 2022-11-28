@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  border: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background: rgb(186, 186, 189);
+  background: linear-gradient(0deg, rgb(186, 186, 189) 0%, rgb(130, 139, 143) 50%, rgb(186, 186, 189) 100%);
+}
+
+section {
+  height: 100%;
+  padding: 10rem 0;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  text-align: center;
+}
+.intro__title {
+  font-size: 4rem;
+}
+.intro__subtitle {
+  margin-top: 2rem;
+  font-size: 2rem;
+  max-width: 80%;
+}
+.intro__image {
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+.intro__main {
+  max-width: 80%;
+}
+.intro__text {
+  font-weight: 500;
+  margin-top: 5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.intro__buttons {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+.intro__button {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background: black;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.contact__main {
+  display: flex;
+  justify-content: space-between;
+}
+.contact__text {
+  max-width: 40%;
+  font-weight: 500;
+  margin-top: 5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.contact__image {
+  border-radius: 1rem;
+  width: 50%;
+}
+.contact__form {
+  color: white;
+  margin: 5rem 0;
+  background: black;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 46rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__form-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.contact__form-field {
+  width: 20rem;
+  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.contact__form-label {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.contact__form-agreement {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact__form-agreement input {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+.contact__form-input {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+}
+.contact__form-submit {
+  background: white;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 700;
+  height: 3.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.75);
+}
+.footer .wrapper {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

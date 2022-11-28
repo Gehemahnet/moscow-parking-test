@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Парковки Москвы</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<main class="main">
+    <section class="intro">
+        <div class="wrapper">
+            <div class="intro__header">
+                <h1 class="intro__title">
+                    Московские парковки
+                </h1>
+                <h3 class="intro__subtitle">
+                    Быстро, выгодно, удобно. <br>
+                    Новое приложение для бронирования парковок в Москве
+                </h3>
+            </div>
+            <div class="intro__main">
+                <p class="intro__text">
+                    Гарантируем стабильный доход для владельцев машиномест и свободные парковки в удобном месте для
+                    автомобилистов.
+                </p>
+                <img src="./assets/images/intro__bg.jpg" alt="" class="intro__image">
+                <div class="intro__buttons">
+                    <a href="#contact" class="intro__button">Хочу доход</a>
+                    <a href="#car-holder" class="intro__button">Хочу парковку</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="wrapper">
+            <div class="contact__main">
+                <img src="./assets/images/contact__bg.jpg" alt="" class="contact__image">
+                <p class="contact__text">
+                    С минимальной комиссией сдадим ваше машиноместо в свободные часы. Наладим стабильный трафик клиентов
+                    и
+                    возьмем на себя все общение с ними. Чтобы зарегистрироваться в проекте, оставьте контактные данные:
+                </p>
+            </div>
+
+
+            <form action="" class="contact__form">
+                <div class="contact__form-main">
+                    <div class="contact__form-field">
+                        <label for="name" class="contact__form-label">
+                            ФИО:
+                        </label>
+                        <input placeholder="Введите ваще ФИО" name="name" type="text" id="name"
+                               class="contact__form-input" required>
+                    </div>
+                    <div class="contact__form-field">
+                        <label for="phone" class="contact__form-label">
+                            Телефон:
+                        </label>
+                        <input placeholder="Введите ваш номер телефона" name="phone" type="text" id="phone"
+                               class="contact__form-input" required>
+                    </div>
+                    <div class="contact__form-field">
+                        <label for="email" class="contact__form-label">
+                            E-mail:
+                        </label>
+                        <input placeholder="Введите ваш адрес эл. почты" name="email" type="email" id="email"
+                               class="contact__form-input" required>
+                    </div>
+                    <div class="contact__form-field">
+                        <label for="address" class="contact__form-label">
+                            Адрес парковочного места:
+                        </label>
+                        <input placeholder="Введите адрес" name="address" type="text" id="address"
+                               class="contact__form-input" required>
+                    </div>
+
+                </div>
+                <div class="contact__form-agreement">
+                    <label for="agreement" class="contact__form-label">
+                        Согласие на обработку персональных данных
+                    </label>
+                    <input placeholder="Введите имя" name="agreement" type="checkbox" id="agreement"
+                           class="contact__form-input" required>
+                </div>
+                <div class="contact__form-footer">
+                    <button class="contact__form-submit">
+                        Отправить
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="car-holder" class="contact car-holder">
+        <div class="wrapper">
+            <div class="contact__main">
+                <p class="contact__text">
+                    Автомобилистам поможем найти парковку в удобном месте даже в часы пик. Гарантируем выгодные цены и
+                    быстрый поиск. <br>Чтобы зарегистрироваться в проекте, оставьте контактные данные:
+                </p>
+                <img src="./assets/images/contact-car-holder__bg.jpg" alt="" class="contact__image">
+            </div>
+            <form action="" class="contact__form">
+                <div class="contact__form-main">
+                    <div class="contact__form-field">
+                        <label for="car-holder-name" class="contact__form-label">
+                            ФИО:
+                        </label>
+                        <input placeholder="Введите ваще ФИО" name="car-holder-name" type="text" id="car-holder-name"
+                               class="contact__form-input" required>
+                    </div>
+                    <div class="contact__form-field">
+                        <label for="car-holder-phone" class="contact__form-label">
+                            Телефон:
+                        </label>
+                        <input placeholder="Введите ваш номер телефона" name="car-holder-phone" type="text"
+                               id="car-holder-phone" class="contact__form-input"
+                               required>
+                    </div>
+                    <div class="contact__form-field">
+                        <label for="car-holder-email" class="contact__form-label">
+                            E-mail:
+                        </label>
+                        <input placeholder="Введите ваш адрес эл. почты" name="car-holder-email" type="email"
+                               id="car-holder-email" class="contact__form-input"
+                               required>
+                    </div>
+                    <div class="contact__form-field">
+                        <label for="car-holder-address" class="contact__form-label">
+                            Адрес парковочного места:
+                        </label>
+                        <input placeholder="Введите адрес" name="car-holder-address" type="text" id="car-holder-address"
+                               class="contact__form-input"
+                               required>
+                    </div>
+                </div>
+                <div class="contact__form-agreement">
+                    <label for="car-holder-agreement" class="contact__form-label">
+                        Согласие на обработку персональных данных
+                    </label>
+                    <input placeholder="Введите имя" name="car-holder-agreement" type="checkbox"
+                           id="car-holder-agreement"
+                           class="contact__form-input" required>
+                </div>
+                <div class="contact__form-footer">
+                    <button class="contact__form-submit">
+                        Отправить
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="wrapper">
+        <p class="footer__text">
+            Присоединяйтесь к нам сейчас, чтобы пользоваться приложением на более выгодных условиях. <br>
+            Для первых 100
+            подключившихся, специальный тариф - всего 3% комиссии.
+        </p>
+        <p class="footer__text">
+            Мы свяжемся с вами, как только закончим разработку приложения. Это произойдет совсем скоро 🙂
+        </p>
+    </div>
+</footer>
+</body>
+</html>
